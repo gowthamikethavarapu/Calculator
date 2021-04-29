@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa26sAgDW8aWe4j0pVB9NmI3AzKDlwQ-Fkew&usqp=CAU);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
+   font-family: Gotham Rounded, Arial, Helvetica, sans-serif;
+   line-height: 1.3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    }
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+form{
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+  .input input {
+    cursor: pointer;
+    background-color:		#DDA0DD;
+    border: 1px solid #ccc;
+    color:#C71585;
+    border-radius: 30%;
+    width: 80px;
+    height: 80px;
+    outline: none;
+    font-size: 30px;
+  }
+ 
+   .input  .result{
+    width: 170px;
+    height: 80px;
+    background-color: #C71585;
+    color:		#DDA0DD
+    
+  }
+   .input input:hover {
+    background-color:	#E6E6FA;
+  }
+  .output input {
+    display: flex;
+   flex-direction: column;
+   
+    padding: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: aliceblue;
+    
+    border: 5px solid #DDA0DD;
+    border-radius: 20px;
+    margin-bottom: 5px;
+  }
+  
+.output .result {
+    color:#C71585;
+    font-size: 1.5rem;
+    
+  }
+.input .dpink{
+    background-color: #C71585;
+    color:		#DDA0DD
+}
